@@ -1,0 +1,55 @@
+/* 
+yang penting, 
+
+display: flex;
+flex-diretion
+
+justify-content: center;
+align-items: center;
+
+
+
+
+*/
+
+body {
+  background: #d6e6ff;
+}
+
+.sec-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+
+  /* max-width: 1000px; */
+  background: #fff;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    display: none;
+  }
+}
